@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95D6847C2487402B00AD0202 /* TimerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6847B2487402B00AD0202 /* TimerItem.swift */; };
+		95D684BE2489AA2A00AD0202 /* fate2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 95D684BD2489AA2A00AD0202 /* fate2.mp3 */; };
+		95D684C02489B8A900AD0202 /* TimerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D684BF2489B8A900AD0202 /* TimerViewCell.swift */; };
 		95E202C72487240A0043A7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E202C62487240A0043A7BB /* AppDelegate.swift */; };
 		95E202C92487240A0043A7BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E202C82487240A0043A7BB /* SceneDelegate.swift */; };
-		95E202CB2487240A0043A7BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E202CA2487240A0043A7BB /* ViewController.swift */; };
 		95E202CE2487240A0043A7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E202CC2487240A0043A7BB /* Main.storyboard */; };
 		95E202D0248724100043A7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E202CF248724100043A7BB /* Assets.xcassets */; };
 		95E202D3248724100043A7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E202D1248724100043A7BB /* LaunchScreen.storyboard */; };
+		95E202DB2487249F0043A7BB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E202DA2487249F0043A7BB /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95D6847B2487402B00AD0202 /* TimerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerItem.swift; sourceTree = "<group>"; };
+		95D684BD2489AA2A00AD0202 /* fate2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fate2.mp3; sourceTree = "<group>"; };
+		95D684BF2489B8A900AD0202 /* TimerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewCell.swift; sourceTree = "<group>"; };
 		95E202C32487240A0043A7BB /* swift_timeWithUserDefault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_timeWithUserDefault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E202C62487240A0043A7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95E202C82487240A0043A7BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95E202CA2487240A0043A7BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95E202CD2487240A0043A7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95E202CF248724100043A7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95E202D2248724100043A7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95E202D4248724100043A7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E202DA2487249F0043A7BB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,12 @@
 			children = (
 				95E202C62487240A0043A7BB /* AppDelegate.swift */,
 				95E202C82487240A0043A7BB /* SceneDelegate.swift */,
-				95E202CA2487240A0043A7BB /* ViewController.swift */,
 				95E202CC2487240A0043A7BB /* Main.storyboard */,
+				95E202DA2487249F0043A7BB /* TableViewController.swift */,
+				95D684BF2489B8A900AD0202 /* TimerViewCell.swift */,
+				95D6847B2487402B00AD0202 /* TimerItem.swift */,
 				95E202CF248724100043A7BB /* Assets.xcassets */,
+				95D684BD2489AA2A00AD0202 /* fate2.mp3 */,
 				95E202D1248724100043A7BB /* LaunchScreen.storyboard */,
 				95E202D4248724100043A7BB /* Info.plist */,
 			);
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95E202D3248724100043A7BB /* LaunchScreen.storyboard in Resources */,
+				95D684BE2489AA2A00AD0202 /* fate2.mp3 in Resources */,
 				95E202D0248724100043A7BB /* Assets.xcassets in Resources */,
 				95E202CE2487240A0043A7BB /* Main.storyboard in Resources */,
 			);
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E202CB2487240A0043A7BB /* ViewController.swift in Sources */,
+				95D684C02489B8A900AD0202 /* TimerViewCell.swift in Sources */,
 				95E202C72487240A0043A7BB /* AppDelegate.swift in Sources */,
+				95E202DB2487249F0043A7BB /* TableViewController.swift in Sources */,
+				95D6847C2487402B00AD0202 /* TimerItem.swift in Sources */,
 				95E202C92487240A0043A7BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
